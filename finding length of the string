@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+   char name[]="Ravish acharya";
+   int counter;
+   
+   counter=strlen(name);
+   printf("the length of the name is=%d",counter);
+
+    return 0;
+}
