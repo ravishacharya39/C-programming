@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    int t1;
+    char a[30]="ravish";
+    char b[30]="acharya";
+    
+    strncat(a,b,4);
+    printf("%s",a);
+
+    return 0;
+}
